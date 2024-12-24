@@ -87,7 +87,6 @@ THIRD_PARTY_APPS = [
 {%- endif %}
 {%- if cookiecutter.use_drf == "y" %}
     "rest_framework",
-    "rest_framework.authtoken",
     "corsheaders",
     "drf_spectacular",
 {%- endif %}
